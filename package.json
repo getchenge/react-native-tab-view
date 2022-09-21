@@ -20,7 +20,7 @@
     "prepare": "bob build"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "http://xnpm.ximalaya.com"
   },
   "keywords": [
     "react-native-component",
