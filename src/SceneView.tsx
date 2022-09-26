@@ -109,8 +109,8 @@ export default class SceneView<T extends Route> extends React.Component<
 
     return (
       <View
-        // accessibilityElementsHidden={!focused}
-        // importantForAccessibility={focused ? 'auto' : 'no-hide-descendants'}
+        accessibilityElementsHidden={!focused}
+        importantForAccessibility={focused ? 'auto' : 'no-hide-descendants'}
         style={[
           styles.route,
           // If we don't have the layout yet, make the focused screen fill the container
@@ -137,6 +137,6 @@ export default class SceneView<T extends Route> extends React.Component<
 const styles = StyleSheet.create({
   route: {
     flex: 1,
-    // overflow: 'hidden',
+    overflow: 'hidden',
   },
 });
